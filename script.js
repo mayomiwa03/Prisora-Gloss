@@ -1,8 +1,9 @@
 "use strict";
 
 const swiper = new Swiper(".swiper", {
-  direction: "vertical",
+  direction: "vertcal",
   loop: true,
+  allowTouchMove: false,
 
   pagination: {
     el: ".swiper-pagination",
@@ -10,7 +11,7 @@ const swiper = new Swiper(".swiper", {
   },
 
   autoplay: {
-    delay: 4000,
+    delay: 3000,
     disableOnInteraction: false,
   },
 
