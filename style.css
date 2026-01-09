@@ -16,8 +16,11 @@
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   font-size: 2rem;
+}
+
+.header {
+  justify-content: space-between;
   padding: 0.6rem 2rem;
 }
 .logo {
@@ -31,6 +34,7 @@
 .nav-list {
   gap: 2rem;
   list-style: none;
+  justify-content: center;
 }
 .nav-link {
   color: #333;
@@ -39,9 +43,29 @@
   font-family: "Sour Gummy", sans-serif;
 }
 
+.hamburger.active {
+  height: 18.5px;
+}
+.hamburger.active .hamburger-top {
+  transform: rotate(45deg) translate(5px, 5px);
+  z-index: 3;
+}
+
+.hamburger.active .hamburger-middle {
+  opacity: 0;
+}
+
+.hamburger.active .hamburger-bottom {
+  transform: rotate(-45deg) translate(5px, -5px);
+  z-index: 3;
+}
+
+.nav-list.active {
+  display: block;
+}
 .H-icon {
-  color: #333;
-  text-decoration: none;
+  padding-top: 1.2rem;
+  font-size: 1.6rem;
 }
 /* HERO SECTION */
 .hero-section {
