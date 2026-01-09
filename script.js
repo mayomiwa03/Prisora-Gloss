@@ -1,7 +1,7 @@
 "use strict";
 
 const swiper = new Swiper(".swiper", {
-  direction: "vertcal",
+  direction: "vertical",
   loop: true,
   allowTouchMove: false,
 
