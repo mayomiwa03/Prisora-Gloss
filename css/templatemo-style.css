@@ -19,7 +19,9 @@ header 3 mb: 35px;
 header 4 & 5 mb: 50px;
 others mb: 40px;
 */
-
+/* html {
+  font-size: 62.5%;
+} */
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 19px;
